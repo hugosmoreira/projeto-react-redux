@@ -7,14 +7,10 @@ function App() {
     <div className="App">
       <h1>Exercicio - Redux</h1>
       <div className="linha">
-        <Card />
-        <Card />
-        <Card />
+        <Card title="Card 1"></Card>
       </div>
       <div className="linha">
-        <Card />
-        <Card />
-        <Card />
+        <Card title="Card 2"> </Card>
       </div>
     </div>
   );
